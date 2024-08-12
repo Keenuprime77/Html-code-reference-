@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid </title>
+    <style>
+        .container{
+            display:grid;            
+            grid-gap:1rem;
+            grid-template-areas:
+            'navar navar navar navar'
+            'section section aside aside'
+            'footer footer footer footer';
+        }        
+        .item{
+            background-color: green;
+            border :2px solid red;
+            padding:12px 23px;
+        }
+        #navbar{
+            grid-area:navar;
+        }        
+        #section{
+            grid-area:section;            
+        }        
+        #aside{
+            grid-area:aside;
+        }        
+        footer{
+            grid-area:footer;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            go go Power Ranger 
+        </div>
+        <div id="section" class="item">
+            old cartoon has a special story line
+        </div>
+        <div id="aside" class="item">
+            old animation have suoerb story telling without load
+        </div>
+        <footer class="item">Lorem ipsum dolor, sit amet consectetur</footer>
+        
+    </div>
+    
+    
+        
+        
+    </div>
+    
+        
+        
+    
+</body>
+</html>

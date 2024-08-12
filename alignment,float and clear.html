@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>alignment,float and clearing</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .container{
+    width:500px;
+   margin:33px auto;
+   border:3px solid red;
+   background-color:yellow;
+    }
+    .item{border:3px solid pink;
+    margin:12px;
+    padding:12px;
+    background-color:orange;}
+    
+    #computer{
+    float:right;
+    width:40%;}
+    
+    #fruit{
+    float:left;
+    width:40%;}
+    
+    #stationary{
+  /*  float:right;
+  clear: right;
+  clear: left;*/
+  clear:both;
+   width:98%;}
+   
+   p,h3{/*text-align: right;
+   text-align:left;*/
+   text-align: center;
+   text-align:justify;
+   }
+   
+   h1{margin:33px auto;
+   width:400px;
+   text-align:center;}
+    
+    </style>
+</head>
+<body><div class="container">
+    <h1>bags</h1>
+    <div id="fruit" class="item" >
+        <h3>fruit box</h3><p id="fruitpara" class="para">this box contains fruits 🙂 </p></div>
+    <div id="computer" class="item"><h3>computer box</h3>
+    <p id="computerpara" class="para">this box contains computer</p>
+</div>
+    <div id="stationary" class="item"><h3>stationary box</h3>
+    <p id="stationarypara" class="para">this box contains Stationary item</p></div>
+</div>
+</body>
+</html>

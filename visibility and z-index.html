@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Visibility and z-index</title>
+    <style>
+        .box{border:2px solid red;
+        height:170px;
+        width:170px;}
+        
+        #box1{background-color:blue;}
+        #box2{background-color: pink;
+        position:relative;
+        top:49px;
+        z-index:4;
+     /*   hide the element but will show its empty space */
+            /* visibility:hidden;  */
+            
+            /* will hide the element and the space */
+            /* display: none;  */
+        }
+        #box3{background-color:green;
+        position:relative;
+        bottom:70px;
+           z-index:5; }
+        #box4{background-color:orange;}
+ 
+ 
+ /* z-index  will work only for position: relative, absolute, fixed or sticky; */
+ 
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>     
+</body>
+</html>

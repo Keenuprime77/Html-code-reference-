@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>box model</title>      
+    <style>
+        /*universal selector is "*" */
+        *{box-sizing:border-box;
+        margin:0;
+        padding:0;}
+        
+        
+        .box{background-color:yellow;
+    border:3px solid red;
+    /*padding:45px;*/
+    /*padding-top:44px
+    padding-bottom:46px;
+    padding-right:30px;
+    padding-left:36px;*/
+    
+    /*padding:top bottom right left;*/
+    /*padding:40px 30px 10px 50px;*/
+    
+    /* padding: y(top/bottom) x(left/right); */
+    padding: 40px 59px;
+    
+    /*margin:20px*/
+    /*margin-top:44px
+   margin-bottom:46px;
+    margin-right:30px;
+    margin-left:36px;*/
+    
+    /*margin:top bottom right left;*/
+    /*margin:40px 30px 10px 50px;*/
+    
+    /* margin: y(top/bottom) x(left/right); */
+    margin: 40px 59px;
+    border-radius:20px;
+    width:300px
+    }
+    body{
+            background-color: #e6cbf8;
+        }
+    </style>
+</head>
+<body><div class="box">
+<h3>this is fo box model</h3>
+<p id="firstline">there is a mistake</p></div>
+
+<div class="box">
+<h3>this is fo box model</h3>
+<p id="firstline">i have something special</p></div>
+
+<div class="box">
+<h3>this is fo box model</h3>
+<p id="firstline">you can spend time with friends</p></div>
+    
+</body>
+</html>

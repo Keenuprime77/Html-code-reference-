@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form and input</title>
+</head>
+<body> 
+    <form action="backend.php">
+        
+        <label for="t"> name:</label>
+        <div> <input type="text" name="my name" id="t"></div><br>        
+        <div>date:<input type="date" name="my date" </div><br>
+       
+        
+        <br>
+        <div>number:<input type="number" name="my number"></div>
+       
+       <div>are you eligible: <input type="checkbox" name="mycheckbox"checked ></div>
+       <div>gender: male<input type="radio" name="my gender"> female <input type="radio" name="my gender"></div>
+       <br>
+       <div>write about yourself:<br> <textarea cols="50" rows="10" name="my details"></textarea></div>
+       
+       <br>
+       <div>
+           <label for="car">car</label>
+           <select name="my car" id="car">
+               <option value="indica">indica</option>
+               <option value="swift">swift</option>
+               <option value="Bugatti">Bugatti</option>
+               <option value="creta">creta</option>
+           </select>
+       </div>
+       <div><input type="submit" value="send">
+       <input type="reset" value="reset"></div>
+    </form>
+        
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>advance selector in css</title>
+    <style>
+        h1{color:red;
+        text-align:center;
+        font-weight:bold;
+        background-color:green;
+        }
+        
+        /* if p is contained by any li which is contained by div */
+        
+        div li p{background-color:blue;
+        font-weight:bold;}
+        
+        /* if p is right inside div then this CSS will be applied */
+        
+        div > p{background-color: orange;
+        font-weight:bold;}
+        
+       /*  p{background-color: red;} */
+       
+       /* if p is right after div i.e p is the next sibling of div*/
+       
+       div+p{background-color: grey;}
+    
+    </style>
+</head>
+<body>
+    <h1>this is a header</h1>
+    <div class="comtainer">
+        <div class="row">
+            <ul>
+                <li class="item"><p>this is outer paragraph</p></li>
+                <li> this is another paragraph</li>
+                <p>this is a another paragraph</p>
+            </ul>
+        </div>
+        <p>this is second paragraph</p>        
+    </div>
+    <p>this is outer paragraph</p>
+    
+</body>
+</html>

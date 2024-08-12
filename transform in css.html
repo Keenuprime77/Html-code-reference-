@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Transform</title>
+    <style>
+        .container{
+            background-color:burlywood;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            
+        }
+        .box{
+        display :flex;
+        justify-content:center;
+        align-items:center;
+       background-color: brown;
+       height:200px;
+       width:200px; 
+       border:2px solid black ;  
+       border-radius:8px;        
+               }
+        
+        .box:hover{
+            transition:all 3s ease-in-out;
+           /*   transform:rotate(360deg); */
+           /*transform:skew(45deg);*/
+         /*  transform:scale(2);*/
+          /* transform:translatex(60px);
+           transform:translatey(60px);*/
+           transform:translate(-60px,-60px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">this text shows transform affect</div>
+    </div>
+</body>
+</html>
