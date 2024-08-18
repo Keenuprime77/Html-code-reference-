@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>arrays and object</title>
+</head>
+
+<body>
+    <div class="container">this is simple HTML</div>
+    <script>
+        let myVar = 32;
+        let myVar2 = "string";
+        let myVar3 = true;
+        let myVar4 = null;
+        let myVar5 = undefined;
+
+        let employee = {
+            name: "keenu",
+            salary: 5000,
+            favGame: "god of war",
+            hobby: "programming",
+            "fav Food":"cake",
+        }
+        console.log(employee);
+
+       let names = [3,1,5, 2, 4, "keenu", undefined];
+    //  let names = new Array(42, 3,4, "keenu",undefined);
+     //   let names = new Array(45,undefined);
+        console.log(names);
+        console.log(names[5]);
+
+        console.log(names.length);
+        names=names.sort();
+        console.log(names.sort());
+
+        names=names.push("this is pushed");
+        
+        //two ways to print 
+       /* 1 */ console.log(employee.hobby);
+       /* 2 */ console.log(employee['hobby']);
+        
+        //when variable has spaces then we have to use 2nd method and key value has to be cover with double colon. example 
+        
+       console.log(employee['fav Food']);
+       console.log(employee);
+
+
+    </script>
+</body>
+
+</html>
