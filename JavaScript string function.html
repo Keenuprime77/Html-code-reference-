@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Javascript String Funtion</title>
+</head>
+<body>
+   
+<script>
+    var str = "This is a string";
+    console.log(str);
+
+    // First occurance of a substring
+    var position = str.indexOf('is');
+    console.log(position);
+
+    // Last occurance of a substring
+    position = str.lastIndexOf('is');
+    console.log(position);
+
+    //Substring of string
+    var substr = str.slice(1,7);
+    console.log(substr);
+
+    /*substring() and slice() are similar but substring cannot take negative indexing*/
+    var substring = str.substring(1,7);
+    console.log(substring);
+
+    var substr1 = str.substr(1,7);
+    console.log(substr1);
+
+    var replaced = str.replace('string','harry');
+    console.log(str);
+    console.log(replaced);
+
+    console.log(str.toUpperCase());
+    console.log(str.toLowerCase());
+
+    var strwithwhitespaces = ('     this     white     spaces   ') 
+    console.log(strwithwhitespaces);
+    console.log(strwithwhitespaces.trim());
+
+    var newstring = str.concat('  new string');
+    console.log(newstring);   
+
+    var char1 = str.charAt(2);
+    console.log(char1);
+
+    var char2 = str.charCodeAt(2);
+    console.log(char2);
+
+
+    //slicing in easy way
+console.log(str[3]);
+    
+</script>
+</body>
+</html>
