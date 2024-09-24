@@ -1,0 +1,322 @@
+{
+    "car_brands": [
+        {
+            "brand": "Acura",
+            "headquarters": "Tokyo, Japan",
+            "latitude": 35.6895,
+            "longitude": 139.7670
+        },
+        {
+            "brand": "Alfa Romeo",
+            "headquarters": "Turin, Italy",
+            "latitude": 45.0458,
+            "longitude": 7.6747
+        },
+        {
+            "brand": "Audi",
+            "headquarters": "Ingolstadt, Germany",
+            "latitude": 48.7808,
+            "longitude": 11.4279
+        },
+        {
+            "brand": "BMW",
+            "headquarters": "Munich, Germany",
+            "latitude": 48.1772,
+            "longitude": 11.6210
+        },
+        {
+            "brand": "Bentley",
+            "headquarters": "Crewe, UK",
+            "latitude": 53.0993,
+            "longitude": -2.4343
+        },
+        {
+            "brand": "Bugatti",
+            "headquarters": "Molsheim, France",
+            "latitude": 48.5364,
+            "longitude": 7.4958
+        },
+        {
+            "brand": "Buick",
+            "headquarters": "Detroit, Michigan, USA",
+            "latitude": 42.3322,
+            "longitude": -83.0458
+        },
+        {
+            "brand": "Cadillac",
+            "headquarters": "Detroit, Michigan, USA",
+            "latitude": 42.3322,
+            "longitude": -83.0458
+        },
+        {
+            "brand": "Chevrolet",
+            "headquarters": "Detroit, Michigan, USA",
+            "latitude": 42.3322,
+            "longitude": -83.0458
+        },
+        {
+            "brand": "Chrysler",
+            "headquarters": "Auburn Hills, Michigan, USA",
+            "latitude": 42.6719,
+            "longitude": -83.2298
+        },
+        {
+            "brand": "Citroen",
+            "headquarters": "Paris, France",
+            "latitude": 48.8567,
+            "longitude": 2.3510
+        },
+        {
+            "brand": "Dacia",
+            "headquarters": "Mioveni, Romania",
+            "latitude": 44.9442,
+            "longitude": 24.9467
+        },
+        {
+            "brand": "Dodge",
+            "headquarters": "Auburn Hills, Michigan, USA",
+            "latitude": 42.6719,
+            "longitude": -83.2298
+        },
+        {
+            "brand": "Ferrari",
+            "headquarters": "Maranello, Italy",
+            "latitude": 44.3323,
+            "longitude": 10.8589
+        },
+        {
+            "brand": "Fiat",
+            "headquarters": "Turin, Italy",
+            "latitude": 45.0458,
+            "longitude": 7.6747
+        },
+        {
+            "brand": "Ford",
+            "headquarters": "Dearborn, Michigan, USA",
+            "latitude": 42.3223,
+            "longitude": -83.1761
+        },
+        {
+            "brand": "Geely",
+            "headquarters": "Hangzhou, China",
+            "latitude": 30.2741,
+            "longitude": 120.1614
+        },
+        {
+            "brand": "General Motors",
+            "headquarters": "Detroit, Michigan, USA",
+            "latitude": 42.3322,
+            "longitude": -83.0458
+        },
+        {
+            "brand": "Honda",
+            "headquarters": "Tokyo, Japan",
+            "latitude": 35.6895,
+            "longitude": 139.7670
+        },
+        {
+            "brand": "Hyundai",
+            "headquarters": "Seoul, South Korea",
+            "latitude": 37.5665,
+            "longitude": 126.9779
+        },
+        {
+            "brand": "Infiniti",
+            "headquarters": "Hong Kong",
+            "latitude": 22.3964,
+            "longitude": 114.1095
+        },
+        {
+            "brand": "Isuzu",
+            "headquarters": "Tokyo, Japan",
+            "latitude": 35.6895,
+            "longitude": 139.7670
+        },
+        {
+            "brand": "Jaguar",
+            "headquarters": "Coventry, UK",
+            "latitude": 52.4079,
+            "longitude": -1.5104
+        },
+        {
+            "brand": "Jeep",
+            "headquarters": "Auburn Hills, Michigan, USA",
+            "latitude": 42.6719,
+            "longitude": -83.2298
+        },
+        {
+            "brand": "Kia",
+            "headquarters": "Seoul, South Korea",
+            "latitude": 37.5665,
+            "longitude": 126.9779
+        },
+        {
+            "brand": "Lamborghini",
+            "headquarters": "Sant'Agata Bolognese, Italy",
+            "latitude": 44.6569,
+            "longitude": 11.1267
+        },
+        {
+            "brand": "Lancia",
+            "headquarters": "Turin, Italy",
+            "latitude": 45.0458,
+            "longitude": 7.6747
+        },
+        {
+            "brand": "Land Rover",
+            "headquarters": "Coventry, UK",
+            "latitude": 52.4079,
+            "longitude": -1.5104
+        },
+        {
+            "brand": "Lexus",
+            "headquarters": "Toyota City, Japan",
+            "latitude": 35.0823,
+            "longitude": 137.1543
+        },
+        {
+            "brand": "Maserati",
+            "headquarters": "Modena, Italy",
+            "latitude": 44.6472,
+            "longitude": 10.9203
+        },
+        {
+            "brand": "Mazda",
+            "headquarters": "Hiroshima, Japan",
+            "latitude": 34.3853,
+            "longitude": 132.4552
+        },
+        {
+            "brand": "McLaren",
+            "headquarters": "Woking, UK",
+            "latitude": 51.3245,
+            "longitude": -0.5632
+        },
+        {
+            "brand": "Mercedes-Benz",
+            "headquarters": "Stuttgart, Germany",
+            "latitude": 48.7833,
+            "longitude": 9.1667
+        },
+        {
+            "brand": "Mercury",
+            "headquarters": "Dearborn, Michigan, USA",
+            "latitude": 42.3223,
+            "longitude": -83.1761
+        },
+        {
+            "brand": "MG",
+            "headquarters": "Oxford, UK",
+            "latitude": 51.7538,
+            "longitude": -1.2603
+        },
+        {
+            "brand": "Mini",
+            "headquarters": "Munich, Germany",
+            "latitude": 48.1772,
+            "longitude": 11.6210
+        },
+        {
+            "brand": "Mitsubishi",
+            "headquarters": "Tokyo, Japan",
+            "latitude": 35.6895,
+            "longitude": 139.7670
+        },
+        {
+            "brand": "Nissan",
+            "headquarters": "Yokohama, Japan",
+            "latitude": 35.4437,
+            "longitude": 139.6380
+        },
+        {
+            "brand": "Opel",
+            "headquarters": "Rüsselsheim, Germany",
+            "latitude": 50.0014,
+            "longitude": 8.4264
+        },
+        {
+            "brand": "Peugeot",
+            "headquarters": "Paris, France",
+            "latitude": 48.8567,
+            "longitude": 2.3510
+        },
+        {
+            "brand": "Porsche",
+            "headquarters": "Stuttgart, Germany",
+            "latitude": 48.7833,
+            "longitude": 9.1667
+        },
+        {
+            "brand": "Ram",
+            "headquarters": "Auburn Hills, Michigan, USA",
+            "latitude": 42.6719,
+            "longitude": -83.2298
+        },
+        {
+            "brand": "Renault",
+            "headquarters": "Boulogne-Billancourt, France",
+            "latitude": 48.8397,
+            "longitude": 2.2408
+        },
+        {
+            "brand": "Rolls-Royce",
+            "headquarters": "Goodwood, UK",
+            "latitude": 50.8653,
+            "longitude": -0.7333
+        },
+        {
+            "brand": "Saab",
+            "headquarters": "Trollhättan, Sweden",
+            "latitude": 58.2823,
+            "longitude": 12.2925
+        },
+        {
+            "brand": "Seat",
+            "headquarters": "Martorell, Spain",
+            "latitude": 41.4833,
+            "longitude": 1.9333
+        },
+        {
+            "brand": "Skoda",
+            "headquarters": "Mladá Boleslav, Czech Republic",
+            "latitude": 50.4167,
+            "longitude": 14.9167
+        },
+        {
+            "brand": "Smart",
+            "headquarters": "Stuttgart, Germany",
+            "latitude": 48.7833,
+            "longitude": 9.1667
+        },
+        {
+            "brand": "SsangYong",
+            "headquarters": "Seoul, South Korea",
+            "latitude": 37.5665,
+            "longitude": 126.9779
+        },
+        {
+            "brand": "Subaru",
+            "headquarters": "Tokyo, Japan",
+            "latitude": 35.6895,
+            "longitude": 139.7670
+        },
+        {
+            "brand": "Suzuki",
+            "headquarters": "Hamamatsu, Japan",
+            "latitude": 34.7053,
+            "longitude": 137.7267
+        },
+        {
+            "brand": "Tata",
+            "headquarters": "Mumbai, India",
+            "latitude": 19.0759,
+            "longitude": 72.8777
+        },
+        {
+            "brand": "Tesla",
+            "headquarters": "Austin, Texas, USA",
+            "latitude": 30.3974,
+            "longitude": -97.8205
+        }
+    ]
+}
