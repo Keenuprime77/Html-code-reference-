@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>arrow functions and This</title>
+</head>
+
+<body>
+    <div class="container">
+        this is arrow function and this practice
+    </div>
+</body>
+<script>
+    //normal function:-
+    /*   function greet(){
+           console.log("Good Morning");
+       }
+       greet();*/
+
+    //above function can be written  as in form of arrow function:-
+    //one way
+    let greet = () => {
+        console.log("Good Moring");
+    }
+    greet();
+    //another way
+    let greet2 = () => console.log("Good Moring");
+
+    greet2();
+    //one way
+    let sum = (a, b) => {
+        return a + b
+            ;
+    }
+    console.log(sum(3, 6));
+
+    //if single argument then we can write without brackets
+    // let half = (a) => a / 2;
+    //console.log(half(8));
+
+    let half = a => a / 2;
+    console.log(half(8));
+    //another way
+    //if not using curly braces then do not write return keyword 
+    let sum2 = (a, b) => a + b;
+    console.log(sum2(3, 5));
+
+    setTimeout(() => {
+        console.log("we are inside setimeout function");
+    }, 3000);
+
+    /* let obj1 = {
+         greeting: "good moring",
+         names: ["harry", "keenu", "Vijay", "azaz"],
+         speak() {
+             this.names.forEach((student) => {
+                 console.log(this.greeting + " hello there " + student);
+             });
+         }
+     }*/
+
+
+    let greeting = "good moring";
+    let names1 = ["harry", "keenu", "Vijay", "azaz"]
+
+    names1.forEach(myfunction)
+    function myfunction(student){
+        console.log(greeting + " hello there "+student);
+    }
+
+
+</script>
+
+</html>
