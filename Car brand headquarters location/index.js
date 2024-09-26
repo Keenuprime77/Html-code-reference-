@@ -8,9 +8,18 @@ rsp.car_brands.forEach(element => {
 latitude = element.latitude;
 longitude = element.longitude;
 var marker = L.marker([latitude,longitude]).addTo(map);
+brand = element.brand;
+headquarters = element.headquarters;
+marker.bindPopup(`<b>Brand:</b>${brand}<br><b>Headquarter:</b>${headquarters}`)
+marker.on('click', () => {
+    map.setView(marker.getLatLng(), map.getZoom());
+  });
+
 });
 L.control.maptilerGeocoding({ apiKey: key }).addTo(map);
+
 })
+         
 }
 updateMap();
 
